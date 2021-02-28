@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  background: #000000;
+}
+
+#timer-1 {
+  margin-top: 30px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+
+#timer-1 .field {
+  padding: 10px;
+  border-radius: 5px;
+  background: #2a3532;
+  display: inline-block;
+}
+
+#timer-1 .value {
+  padding: 10px;
+  border-radius: 10px;
+  background: #8d0505;
+  display: inline-block;
+}
