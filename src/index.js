@@ -46,7 +46,7 @@ class CountdownTimer {
   timeRuns() {
     this.changeDate();
     setInterval(() => {
-      this.changeDate();
+      this.changeDate().bind(this);
     }, 1000);
   }
 
